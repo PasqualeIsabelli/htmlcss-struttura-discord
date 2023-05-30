@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -23,6 +24,19 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px;
+}
+
+.item-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item-nav ul a{
+    display: inline-block;
+    padding: 0 8px;
+    text-decoration: none;
+    color: black;
 }
 
 .left{
@@ -54,6 +68,7 @@ nav{
     height: 100%;
     width: 750px;
     margin: auto;
+    border-radius: 10px;
 }
 
 .container-flex{
@@ -93,13 +108,13 @@ nav{
 }
 
 .flex-item-lightblue-center{
-    background-color: #1e90ff;
+    background-color: #ffc0cb;
     border: 2px dashed black;
     flex-grow: 1;
 }
 
 .flex-item-pink-center{
-    background-color: #ffc0cb;
+    background-color: #1e90ff;
     border: 2px dashed black;
     flex-grow: 1.5;
 }
@@ -177,5 +192,4 @@ footer{
 
 .right.item-footer{
     float: right;
-    
 }
